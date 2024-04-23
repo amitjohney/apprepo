@@ -7,4 +7,6 @@ spec:
   containers:
   - name: my
     image: ubuntu
-    command: ["top"]
+    command:
+    - "sleep"
+    - "500"
